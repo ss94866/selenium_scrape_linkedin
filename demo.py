@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
-email = "sivaannamalai169@gmail.com"
-password = "sivacool"
+email = "YOUR_EMAIL"
+password = "YOUR_PASSWORD"
 actions.login(driver, email, password) # if email and password isnt given, it'll prompt in terminal
 print("Login Successful.")
 
